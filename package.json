@@ -1,0 +1,36 @@
+{
+  "name": "i18n-node-db",
+  "description": "lightweight translation module with dynamic mongodb storage",
+  "version": "0.0.1",
+  "homepage": "https://github.com/aboldisor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aboldisor"
+  },
+  "author": "Boldisor Andrian <aboldisor@gmail.com>",
+  "main": "./index",
+  "keywords": [
+    "template",
+    "i18n",
+    "l10n"
+  ],
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "sprintf": ">=0.1.1",
+    "debug": "*",
+    "mongoose": "~3.8.1",
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.1",
+    "express": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
