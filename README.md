@@ -1,5 +1,5 @@
 # i18n-node-db
-TODO FISNIH README.MD
+TODO finish README.MD
 
 
 ## Logging & Debugging
